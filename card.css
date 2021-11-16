@@ -1,0 +1,29 @@
+h2,h3{
+    color: rgb(29, 41, 63);
+}
+.img-card{
+    /* max-width: 200px; */
+    height: 180px;
+    max-height: fit-content;
+}
+.bg-card{
+    background-color: rgb(247, 248,250);
+}
+.card-price{
+    font-size: 1.2rem;
+    text-align: right;
+    font-weight: 700;
+    color: rgb(86, 178, 128);
+}
+.h-100{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+}
+.bg-green{
+    background-color: #DDF0E6;
+}
+.bg-blue{
+    background-color: #BAC9E0;
+}
