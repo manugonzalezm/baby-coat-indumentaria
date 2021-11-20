@@ -1,5 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 img{
     object-fit: cover;
+}
+
+.row{
+    max-width: 100%;
 }
 
 /* Colores: */
@@ -34,5 +49,44 @@ img{
     #containerTextoPortada p{
         font-size: 0.3rem;
         color: white;
+    }
+
+    .encabezado_productos{
+        background-color: white;
+        height: 18vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #logo{
+        width: 70px;
+        height: 70px;
+        margin-bottom: -8px;
+    }
+    .encabezado_productos h2{
+        font-size: 0.7rem;
+    }
+    .encabezado_productos p{
+        font-size: 0.4rem;
+    }
+    .encabezado_productos a{
+        font-size: inherit;
+        color:  #58c08a;
+        font-weight: bold;
+    }
+    .card_product{
+        border: #D2F8E1 solid 1px;
+        border-radius: 0.2rem;
+        width: 24vw;
+        height: 24vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_product img{
+        width: 100%;
+        height: fit fit-content;
     }
 }
