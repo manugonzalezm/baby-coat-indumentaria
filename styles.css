@@ -91,7 +91,7 @@ img{
     }
 
     .como_comprar_container{
-        height: 22vh;
+        height: 21vh;
         background-color: #E5E9F2;
     }
     .como_comprar_container h2{
@@ -132,5 +132,34 @@ img{
         box-shadow: 0 1.5px #d4d3d3;
         padding: 3px 6px;
         color: rgb(63, 63, 223);
+    }
+
+    .quienes_somos_container{
+        height: 25vh;
+        background-color: #FFF0EC;
+    }
+    .quienes_somos_contenido{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .quienes_somos_contenido img{
+        width: 195px;
+    }
+    .quienes_somos_contenido div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        height: max-content;
+        padding: 19px 12px 19px 25px;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.43rem;
     }
 }
