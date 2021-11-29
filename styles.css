@@ -22,7 +22,7 @@ img{
     background-color: #808484;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 414px) {
     .portada{
         height: 32.5vh;
     }
@@ -88,5 +88,49 @@ img{
     .card_product img{
         width: 100%;
         height: fit fit-content;
+    }
+
+    .como_comprar_container{
+        height: 22vh;
+        background-color: #E5E9F2;
+    }
+    .como_comprar_container h2{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .etapas_compra{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 12px;
+    }
+    .etapas_compra div h5{
+        font-size: 0.5rem;
+        margin: 5px 0 3px 0;
+        font-weight: bold;
+    }
+    .etapas_compra div p{
+        font-size: 0.4rem;
+        padding: 0 3px;
+    }
+    .etapa{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        padding: 0 3px;
+    }
+    .icon_size{
+        font-size: 0.8rem;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 50%;
+        box-shadow: 0 1.5px #d4d3d3;
+        padding: 3px 6px;
+        color: rgb(63, 63, 223);
     }
 }
