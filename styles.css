@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -39,15 +40,17 @@ img{
         padding: 40% 0 25% 23%;
     }
     #containerTextoPortada h1{
-        font-size: 0.6rem;
+        font-size: 0.65rem;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
         color: white;
     }
     #containerTextoPortada h2{
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: #D2F8E1;
     }
     #containerTextoPortada p{
-        font-size: 0.3rem;
+        font-size: 0.35rem;
         color: white;
     }
 
@@ -61,15 +64,17 @@ img{
         align-items: center;
     }
     #logo{
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
         margin-bottom: -8px;
     }
     .encabezado_productos h2{
         font-size: 0.7rem;
+        font-weight: bold;
     }
     .encabezado_productos p{
         font-size: 0.4rem;
+        font-weight: 600;
     }
     .encabezado_productos a{
         font-size: inherit;
@@ -91,12 +96,15 @@ img{
     }
 
     .como_comprar_container{
-        height: 21vh;
+        margin-top: 50px;
+        height: 23vh;
         background-color: #E5E9F2;
     }
     .como_comprar_container h2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: center;
+        font-weight: bold;
+        padding-top: 8px;
     }
     .etapas_compra{
         width: 100%;
@@ -104,7 +112,7 @@ img{
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items: flex-start;
-        margin-top: 12px;
+        margin-top: 10px;
     }
     .etapas_compra div h5{
         font-size: 0.5rem;
@@ -113,7 +121,7 @@ img{
     }
     .etapas_compra div p{
         font-size: 0.4rem;
-        padding: 0 3px;
+        padding: 0 6px;
     }
     .etapa{
         display: flex;
@@ -131,6 +139,7 @@ img{
         border-radius: 50%;
         box-shadow: 0 1.5px #d4d3d3;
         padding: 3px 6px;
+        margin-bottom: 2px;
         color: rgb(63, 63, 223);
     }
 
@@ -158,6 +167,7 @@ img{
     .quienes_somos_contenido div h2{
         font-size: 0.8rem;
         font-weight: bold;
+        margin-bottom: 11px;
     }
     .quienes_somos_contenido div p{
         font-size: 0.43rem;
