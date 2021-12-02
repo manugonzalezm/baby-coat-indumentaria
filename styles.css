@@ -24,181 +24,233 @@ header nav ul{
 
 /* Colores: */
 .gris-oscuro{
-    background-color: #808484;
+    background-color: #7C8087;
 }
 
-@media only screen and (max-width: 414px) {
+header nav ul{
+    font-size: 0.35rem;
+    width: 50vw;
+    padding-top: 17px;
+    padding-left: 6vw;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-weight: lighter;
+}
+header nav ul li a{
+    color: white;
+}
+header nav ul li a:hover{
+    color: #58c08a;
+}
+
+.portada{
+    height: 31vh;
+}
+.portada div{
+    height: 100%;
+}
+.portada div img{
+    width: 98%;
+    height: 90%;
+}
+#containerTextoPortada{
+    width: 100%;
+    height: 100%;
+    padding: 30% 0 25% 23%;
+}
+#containerTextoPortada h1{
+    font-size: 0.60rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#containerTextoPortada h2{
+    font-size: 0.9rem;
+    color: #D2F8E1;
+}
+#containerTextoPortada p{
+    font-size: 0.4rem;
+    color: white;
+}
+
+.encabezado_productos{
+    padding-top: 30px;
+    margin-bottom: 13%;
+    background-color: white;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+}
+.encabezado_productos h2{
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.encabezado_productos p{
+    font-size: 0.35rem;
+    font-weight: 600;
+}
+.encabezado_productos a{
+    font-size: inherit;
+    color:  #58c08a;
+    font-weight: bold;
+}
+.card_product{
+    border: #D2F8E1 solid 1px;
+    border-radius: 0.2rem;
+    width: 24vw;
+    height: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_product img{
+    width: 100%;
+    height: fit fit-content;
+}
+
+.como_comprar_container{
+    margin-top: 13%;
+    height: 26vh;
+    background-color: #E5E9F2;
+}
+.como_comprar_container h2{
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: bold;
+}
+.etapas_compra{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.etapas_compra div h5{
+    font-size: 0.45rem;
+    margin: 5px 0 3px 0;
+    font-weight: bold;
+}
+.etapas_compra div p{
+    font-size: 0.36rem;
+    padding: 0 2%;
+}
+.etapa{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+.etapa p a{
+    font-size: inherit;
+    color:  #58c08a;
+    font-weight: bold;
+}
+.icon_size{
+    font-size: 0.6rem;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 1.5px #d4d3d3;
+    padding: 3px 6px;
+    margin-bottom: 2px;
+    color: rgb(63, 63, 223);
+}
+
+.quienes_somos_container{
+    height: 25vh;
+    background-color: #FFF0EC;
+}
+.quienes_somos_contenido{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.quienes_somos_contenido img{
+    width: 45%;
+}
+.quienes_somos_contenido div{
+    width: 53%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: max-content;
+    padding: 11% 5% 10% 8%;
+}
+.quienes_somos_contenido div h2{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+.quienes_somos_contenido div p{
+    font-size: 0.4rem;
+}
+
+/* Última sección verde */
+.redes--container{
+    height: 45vh;
+}
+
+.footer--container div div h2{
+    font-size: 0.6rem;
+}
+
+.footer--container{
+    height: 19vh;
+}
+
+.titulo-contacto{
+    font-size: 0.5rem;
+    font-weight: 600;
+    color: #0b254b;
+}
+
+.contact_content *{
+    font-size: 0.4rem;
+}
+
+.footer_marca{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.6rem;
+}
+
+.iconos-redes a i{
+    font-size: 0.75rem;
+    color: #0b254b;
+}
+
+.quienes_somos_container{
+    height: 23vh;
+}
+.quienes_somos_contenido{
+    margin-bottom: -5px;
+}
+.nosotros--img--squiggles{
+    width: 20%;
+}
+
+@media only screen and (min-width: 320px) {
     header nav ul{
-        font-size: 0.4rem;
-        width: 50vw;
-        padding-top: 17px;
-        padding-left: 6vw;
-        margin-bottom: 0;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-evenly;
-        align-items: baseline;
-        font-weight: lighter;
-    }
-    header nav ul li a{
-        color: white;
+        font-size: 0.38rem;
+        padding-top: 4%;
     }
 
-    .portada{
-        height: 33vh;
-    }
-    .portada div{
-        height: 100%;
-    }
-    .portada div img{
-        width: 98%;
-    }
-    #containerTextoPortada{
-        width: 100%;
-        height: 100%;
-        padding: 30% 0 25% 23%;
-    }
-    #containerTextoPortada h1{
-        font-size: 0.65rem;
-        font-weight: 600;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-    }
-    #containerTextoPortada h2{
-        font-size: 1.4rem;
-        color: #D2F8E1;
-    }
-    #containerTextoPortada p{
-        font-size: 0.35rem;
-        color: white;
-    }
-
-    .encabezado_productos{
-        background-color: white;
-        height: 18vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    #logo{
-        width: 90px;
-        height: 90px;
-        margin-bottom: -8px;
-    }
-    .encabezado_productos h2{
-        font-size: 0.7rem;
-        font-weight: bold;
-    }
-    .encabezado_productos p{
-        font-size: 0.4rem;
-        font-weight: 600;
-    }
-    .encabezado_productos a{
-        font-size: inherit;
-        color:  #58c08a;
-        font-weight: bold;
-    }
-    .card_product{
-        border: #D2F8E1 solid 1px;
-        border-radius: 0.2rem;
-        width: 24vw;
-        height: 24vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .card_product img{
-        width: 100%;
-        height: fit fit-content;
-    }
-
-    .como_comprar_container{
-        margin-top: 50px;
-        height: 23vh;
-        background-color: #E5E9F2;
-    }
-    .como_comprar_container h2{
-        font-size: 0.7rem;
-        text-align: center;
-        font-weight: bold;
-        padding-top: 8px;
-    }
-    .etapas_compra{
-        width: 100%;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-top: 10px;
-    }
-    .etapas_compra div h5{
-        font-size: 0.5rem;
-        margin: 5px 0 3px 0;
-        font-weight: bold;
-    }
-    .etapas_compra div p{
-        font-size: 0.4rem;
-        padding: 0 6px;
-    }
-    .etapa{
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 10px;
-        padding: 0 3px;
-    }
-    .etapa p a{
-        font-size: inherit;
-        color:  #58c08a;
-        font-weight: bold;
-    }
-    .icon_size{
-        font-size: 0.8rem;
-        background-color: white;
-        border: 1px solid white;
-        border-radius: 50%;
-        box-shadow: 0 1.5px #d4d3d3;
-        padding: 3px 6px;
-        margin-bottom: 2px;
-        color: rgb(63, 63, 223);
-    }
-
-    .quienes_somos_container{
-        height: 25vh;
-        background-color: #FFF0EC;
-    }
-    .quienes_somos_contenido{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    .quienes_somos_contenido img{
-        width: 195px;
-    }
-    .quienes_somos_contenido div{
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-around;
-        height: max-content;
-        padding: 19px 12px 19px 25px;
-    }
-    .quienes_somos_contenido div h2{
-        font-size: 0.8rem;
-        font-weight: bold;
-        margin-bottom: 11px;
-    }
-    .quienes_somos_contenido div p{
-        font-size: 0.43rem;
-    }
-}
-
-@media only screen and (max-width: 360px) {
     /* Encabezado */
     #containerTextoPortada{
         width: 100%;
@@ -206,7 +258,7 @@ header nav ul{
         padding: 30% 0 25% 23%;
     }
     #containerTextoPortada h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* Productos */
@@ -215,42 +267,740 @@ header nav ul{
         margin-bottom: 25px;
     }
     #logo{
+        margin-top: 5%;
         margin-bottom: -4px;
     }
     .encabezado_productos h2{
+        font-size: 0.7rem;
         padding-bottom: 5px;
     }
     .encabezado_productos p{
-        padding-bottom: 15px;
+        font-size: 0.45rem;
+        padding-bottom: 8%;
     }
 
     /* Como comprar */
     .etapas_compra{
-        margin-top: 3px;
+        padding-top: 5px;
     }
     .etapas_compra div h5{
-        font-size: 0.45rem;
+        font-size: 0.5rem;
     }
     .etapas_compra div p{
-        font-size: 0.35rem;
-        padding: 0 5px;
+        font-size: 0.4rem;
+        padding: 0 3px;
     }
     .icon_size{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         padding: 3px 6px;
         margin-bottom: 2px;
     }
 
     /* Quienes somos */
     .quienes_somos_container{
-        height: 27vh;
+        height: 23vh;
     }
     .quienes_somos_contenido img{
-        width: 140px;
+        width: 40%;
     }
     .quienes_somos_contenido div h2{
         font-size: 0.7rem;
         margin-bottom: 10px;
     }
 
+    .footer--container{
+        height: 20vh;
+    }
+    .contact_content *{
+        font-size: 0.45rem;
+    }
+    .footer_marca{
+        font-size: 0.8rem;
+    }
+
+    .quienes_somos_container{
+        height: 25vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -5px;
+    }
+    .nosotros--img--squiggles{
+        width: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 365px) {
+    header nav ul{
+        font-size: 0.45rem;
+    }
+
+    .portada{
+        height: 35vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 0.75rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.2rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.5rem;
+    }
+
+    .quienes_somos_container{
+        height: 30vh;
+    }
+    .quienes_somos_contenido img{
+        width: 48%;
+    }    
+
+    .titulo-contacto{
+        font-size: 0.7rem;
+    }
+
+    .quienes_somos_container{
+        height: 28vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -5px;
+    }
+    .nosotros--img--squiggles{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 405px) {
+    header nav ul{
+        font-size: 0.5rem;
+    }
+
+    .portada{
+        height: 38vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 0.75rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.2rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.5rem;
+    }
+
+    .como_comprar_container h2{
+        font-size: 0.8rem;
+        margin-bottom: -10px;
+    }
+    .etapas_compra div h5{
+        font-size: 0.55rem;
+        margin-bottom: 5%;
+    }
+    .etapas_compra div p{
+        font-size: 0.45rem;
+    }
+    .icon_size{
+        font-size: 0.8rem;
+    }
+
+    .quienes_somos_container{
+        height: 30vh;
+    }
+    .quienes_somos_contenido img{
+        width: 48%;
+    } 
+    .quienes_somos_contenido div h2{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-bottom: 11px;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.5rem;
+    }
+
+    .footer--container{
+        height: 22vh;
+    }
+    .contact_content *{
+        font-size: 0.55rem;
+    }
+    .titulo-contacto{
+        font-size: 0.9rem;
+    }
+    .footer_marca{
+        font-size: 1rem;
+    }
+
+    .quienes_somos_container{
+        height: 30vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -10px;
+    }
+    .nosotros--img--squiggles{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    .portada{
+        height: 42vh;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.5rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.6rem;
+    }
+
+    .como_comprar_container{
+        height: 28vh;
+    }
+
+    .quienes_somos_container{
+        height: 32vh;
+    }
+
+    .footer--container{
+        height: 23vh;
+    }
+    .footer_marca{
+        font-size: 1.2rem;
+    }
+
+    .quienes_somos_container{
+        height: 33vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -10px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 510px) {
+    .portada{
+        height: 48vh;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.5rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.6rem;
+    }
+
+    .como_comprar_container{
+        height: 29vh;
+    }
+    .etapas_compra div h5{
+        font-size: 0.7rem;
+        margin: 5px 0 3px 0;
+    }
+    .etapas_compra div p{
+        font-size: 0.55rem;
+        padding: 0 2%;
+    }
+    .icon_size{
+        font-size: 0.75rem;
+    }
+
+    .quienes_somos_container{
+        height: 35vh;
+    }
+    .quienes_somos_contenido img{
+        width: 40%;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 0.75rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.55rem;
+    }
+
+    .footer--container{
+        height: 23vh;
+    }
+    .footer_marca{
+        font-size: 1.2rem;
+    }
+    .iconos-redes a i{
+        font-size: 1rem;
+    }
+
+    .quienes_somos_container{
+        height: 35vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -30px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header nav ul{
+        font-size: 0.6rem;
+    }
+    .portada{
+        height: 56vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 1rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.8rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.65rem;
+    }
+
+    .encabezado_productos{
+        padding-top: 30px;
+        margin-bottom: 10%;
+        height: 19vh;
+    }
+    #logo{
+        width: 25%;
+        margin: 60px 0 15px 0;
+    }
+    .encabezado_productos h2{
+        font-size: 0.8rem;
+    }
+    .encabezado_productos p{
+        font-size: 0.5rem;
+    }
+
+    .como_comprar_container{
+        height: 30vh;
+    }
+    .como_comprar_container h2{
+        font-size: 1rem;
+    }
+    .etapas_compra div h5{
+        font-size: 0.75rem;
+        margin: 5px 0 3px 0;
+    }
+    .etapas_compra div p{
+        font-size: 0.6rem;
+        padding: 0 2%;
+    }
+    .icon_size{
+        font-size: 0.8rem;
+    }
+
+    .quienes_somos_container{
+        height: 38vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 0.9rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.65rem;
+    }
+
+    .footer--container{
+        height: 23vh;
+    }
+    .contact_content *{
+        font-size: 0.7rem;
+    }
+    .footer_marca{
+        font-size: 1.2rem;
+    }
+    .iconos-redes a i{
+        font-size: 1.1rem;
+    }
+
+    .quienes_somos_container{
+        height: 40vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -40px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    header nav ul{
+        font-size: 0.68rem;
+    }
+    .portada{
+        height: 65vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 1.3rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.8rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.75rem;
+    }
+
+    .encabezado_productos{
+        padding-top: 7%;
+        height: 40vh;
+    }
+    #logo{
+        width: 40%;
+        height: 130%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        font-size: 1rem;
+    }
+    .encabezado_productos p{
+        font-size: 0.6rem;
+    }
+
+    .icon_size{
+        font-size: 1rem;
+    }
+
+    .quienes_somos_container{
+        height: 42vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 1rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.7rem;
+    }
+
+    .footer--container{
+        height: 25vh;
+    }
+    .titulo-contacto{
+        font-size: 1rem;
+    }
+    .contact_content *{
+        font-size: 0.8rem;
+    }
+    .footer_marca{
+        font-size: 1.5rem;
+    }
+    .iconos-redes a i{
+        font-size: 1.3rem;
+    }
+
+    .quienes_somos_container{
+        height: 45vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -50px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    header nav ul{
+        font-size: 0.75rem;
+    }
+    .portada{
+        height: 70vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 1.4rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 2.2rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.8rem;
+    }
+
+    .encabezado_productos{
+        padding-top: 7%;
+        height: 30vh;
+    }
+    #logo{
+        width: 25%;
+        height: 130%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        font-size: 1.35rem;
+        font-weight: 500;
+    }
+    .encabezado_productos p{
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    .como_comprar_container{
+        height: 42vh;
+    }
+    .como_comprar_container h2{
+        font-size: 1.2rem;
+    }
+    .etapas_compra div h5{
+        font-size: 1rem;
+    }
+    .etapas_compra div p{
+        font-size: 0.8rem;
+        padding: 0 2px;
+    }
+    .icon_size{
+        font-size: 1.2rem;
+    }
+    
+    .quienes_somos_container{
+        height: 48vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 11px;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.85rem;
+    }
+
+    .footer--container{
+        height: 30vh;
+    }
+    .titulo-contacto{
+        font-size: 1.2rem;
+    }
+    .contact_content *{
+        font-size: 0.9rem;
+    }
+    .footer_marca{
+        font-size: 1.6rem;
+    }
+    .iconos-redes a i{
+        font-size: 1.5rem;
+    }
+
+    .quienes_somos_container{
+        height: 45vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -70px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    .portada{
+        height: 80vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 1.4rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 2.8rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.8rem;
+    }
+
+    .quienes_somos_container{
+        height: 55vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -70px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    header nav ul{
+        font-size: 1rem;
+    }
+    .portada{
+        height: 85vh;
+    }
+    #containerTextoPortada h1{
+        font-size: 1.5rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 3rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.9rem;
+    }
+
+    .encabezado_productos{
+        padding-top: 7%;
+        height: 35vh;
+    }
+    #logo{
+        width: 24%;
+        height: 140%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        font-size: 1.55rem;
+        font-weight: 500;
+    }
+    .encabezado_productos p{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .como_comprar_container{
+        height: 45vh;
+        margin-top: 8%;
+    }
+    .como_comprar_container h2{
+        font-size: 1.4rem;
+    }
+    .icon_size{
+        font-size: 2rem;
+        padding: 8px 16px;
+    }
+
+    .quienes_somos_container{
+        height: 55vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 1.4rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.9rem;
+    }
+
+    .footer--container{
+        height: 32vh;
+    }
+    .titulo-contacto{
+        font-size: 1.4rem;
+    }
+    .contact_content *{
+        font-size: 1rem;
+    }
+    .footer_marca{
+        font-size: 1.7rem;
+    }
+    .iconos-redes a i{
+        font-size: 1.6rem;
+    }
+
+    .quienes_somos_container{
+        height: 60vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -70px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .quienes_somos_container{
+        height: 60vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .footer--container{
+        height: 40vh;
+        padding: 2%;
+    }
+    .titulo-contacto{
+        font-size: 1.7rem;
+    }
+    .contact_content *{
+        font-size: 1.2rem;
+    }
+    .footer_marca{
+        font-size: 1.8rem;
+    }
+    .iconos-redes a i{
+        font-size: 1.8rem;
+    }
+
+    .quienes_somos_container{
+        height: 70vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -100px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .portada{
+        height: 95vh;
+    }
+    .portada div img{
+        width: 90%;
+        height: 85%;
+    }
+    #containerTextoPortada h1{
+        font-size: 2.5rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 4rem;
+    }
+    #containerTextoPortada p{
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    .encabezado_productos{
+        padding-top: 7%;
+        height: 42vh;
+    }
+    #logo{
+        width: 24%;
+        height: 140%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .encabezado_productos p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .como_comprar_container{
+        margin-top: 13%;
+        height: 48vh;
+        background-color: #E5E9F2;
+    }
+    .como_comprar_container h2{
+        font-size: 1.5rem;
+    }
+    .etapas_compra div h5{
+        font-size: 1.1rem;
+    }
+    .etapas_compra div p{
+        font-size: 0.9rem;
+    }
+    .icon_size{
+        font-size: 1.5rem;
+    }
+
+    .quienes_somos_container{
+        height: 75vh;
+    }
+    .quienes_somos_contenido{
+        margin-bottom: -100px;
+    }
+    .nosotros--img--squiggles{
+        width: 15%;
+    }
 }
