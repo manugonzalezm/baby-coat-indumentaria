@@ -244,7 +244,7 @@ header nav ul li a:hover{
     width: 20%;
 }
 
-@media only screen and (min-width: 320px) {
+@media all and (min-width: 320px) {
     header nav ul{
         font-size: 0.38rem;
         padding-top: 9%;
@@ -329,7 +329,7 @@ header nav ul li a:hover{
 
 }
 
-@media only screen and (min-width: 365px) {
+@media all and (min-width: 365px) {
     header nav ul{
         font-size: 0.45rem;
         padding-top: 6%;
@@ -370,7 +370,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 405px) {
+@media all and (min-width: 405px) {
     header nav ul{
         font-size: 0.5rem;
     }
@@ -442,7 +442,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 451px) {
+@media all and (min-width: 451px) {
     .portada{
         height: 42vh;
     }
@@ -497,7 +497,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 510px) {
+@media all and (min-width: 510px) {
     .portada{
         height: 48vh;
     }
@@ -557,7 +557,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media all and (min-width: 600px) {
     header nav ul{
         font-size: 0.6rem;
     }
@@ -642,7 +642,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media all and (min-width: 700px) {
     header nav ul{
         font-size: 0.68rem;
     }
@@ -716,7 +716,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 760px) {
+@media all and (min-width: 760px) {
     header nav ul{
         font-size: 0.75rem;
     }
@@ -807,7 +807,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 880px) {
+@media all and (min-width: 880px) {
     .portada{
         height: 80vh;
     }
@@ -832,7 +832,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 980px) {
+@media all and (min-width: 980px) {
     header nav ul{
         font-size: 1rem;
         padding-top: 4%;
@@ -917,7 +917,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media all and (min-width: 1100px) {
     header nav ul{
         padding-top: 3%;
     }
@@ -961,7 +961,7 @@ header nav ul li a:hover{
     }
 }
 
-@media only screen and (min-width: 1150px) {
+@media all and (min-width: 1150px) {
     .portada{
         height: 95vh;
     }
