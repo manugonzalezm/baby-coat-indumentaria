@@ -93,12 +93,11 @@ header nav ul li a:hover{
 }
 .encabezado_productos h2{
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: normal;
     padding-bottom: 5%;
 }
 .encabezado_productos p{
     font-size: 0.5rem;
-    font-weight: 600;
 }
 .encabezado_productos a{
     font-size: inherit;
