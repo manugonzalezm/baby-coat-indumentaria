@@ -827,6 +827,7 @@ header nav ul li a:hover{
     .encabezado_productos{
         padding-top: 0%;
         height: 42vh;
+        padding-bottom: 50px;
     }
     #logo{
         width: 20%;
