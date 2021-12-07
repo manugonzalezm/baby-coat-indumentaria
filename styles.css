@@ -28,7 +28,7 @@ header nav ul{
 }
 
 header nav ul{
-    font-size: 0.35rem;
+    font-size: 0.4rem;
     width: 50vw;
     padding-top: 10%;
     padding-left: 6vw;
@@ -62,7 +62,7 @@ header nav ul li a:hover{
     padding: 30% 0 25% 23%;
 }
 #containerTextoPortada h1{
-    font-size: 0.60rem;
+    font-size: 0.7rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -72,7 +72,7 @@ header nav ul li a:hover{
     color: #D2F8E1;
 }
 #containerTextoPortada p{
-    font-size: 0.4rem;
+    font-size: 0.45rem;
     color: white;
 }
 
@@ -80,7 +80,7 @@ header nav ul li a:hover{
     padding-top: 30px;
     margin-bottom: 13%;
     background-color: white;
-    height: 18vh;
+    height: 20vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -92,12 +92,12 @@ header nav ul li a:hover{
     height: 90px;
 }
 .encabezado_productos h2{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: normal;
     padding-bottom: 5%;
 }
 .encabezado_productos p{
-    font-size: 0.5rem;
+    font-size: 0.55rem;
 }
 .encabezado_productos a{
     font-size: inherit;
@@ -120,11 +120,11 @@ header nav ul li a:hover{
 
 .como_comprar_container{
     margin-top: 13%;
-    height: 26vh;
+    height: 30vh;
     background-color: #E5E9F2;
 }
 .como_comprar_container h2{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
     font-weight: bold;
 }
@@ -136,12 +136,12 @@ header nav ul li a:hover{
     align-items: flex-start;
 }
 .etapas_compra div h5{
-    font-size: 0.45rem;
+    font-size: 0.5rem;
     margin: 5px 0 3px 0;
-    font-weight: bold;
+    font-weight: 600;
 }
 .etapas_compra div p{
-    font-size: 0.36rem;
+    font-size: 0.4rem;
     padding: 0 2%;
 }
 .etapa{
@@ -159,7 +159,7 @@ header nav ul li a:hover{
     font-weight: bold;
 }
 .icon_size{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     background-color: white;
     border: 1px solid white;
     border-radius: 50%;
@@ -170,7 +170,7 @@ header nav ul li a:hover{
 }
 
 .quienes_somos_container{
-    height: 25vh;
+    height: 38vh;
     background-color: #FFF0EC;
 }
 .quienes_somos_contenido{
@@ -196,7 +196,7 @@ header nav ul li a:hover{
     margin-bottom: 11px;
 }
 .quienes_somos_contenido div p{
-    font-size: 0.4rem;
+    font-size: 0.48rem;
 }
 
 /* Última sección verde */
@@ -213,7 +213,7 @@ header nav ul li a:hover{
 }
 
 .titulo-contacto{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: #0b254b;
 }
@@ -244,9 +244,9 @@ header nav ul li a:hover{
     width: 20%;
 }
 
-@media all and (min-width: 320px) {
+@media all and (min-width: 320px) and (orientation: portrait) {
     header nav ul{
-        font-size: 0.38rem;
+        font-size: 0.42rem;
         padding-top: 9%;
     }
 
@@ -257,7 +257,7 @@ header nav ul li a:hover{
         padding: 30% 0 25% 23%;
     }
     #containerTextoPortada h2{
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     /* Productos */
@@ -270,11 +270,11 @@ header nav ul li a:hover{
         margin-bottom: -4px;
     }
     .encabezado_productos h2{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding-bottom: 5px;
     }
     .encabezado_productos p{
-        font-size: 0.45rem;
+        font-size: 0.6rem;
         padding-bottom: 8%;
     }
 
@@ -283,10 +283,10 @@ header nav ul li a:hover{
         padding-top: 5px;
     }
     .etapas_compra div h5{
-        font-size: 0.5rem;
+        font-size: 0.52rem;
     }
     .etapas_compra div p{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         padding: 0 3px;
     }
     .icon_size{
@@ -297,7 +297,7 @@ header nav ul li a:hover{
 
     /* Quienes somos */
     .quienes_somos_container{
-        height: 23vh;
+        height: 30vh;
     }
     .quienes_somos_contenido img{
         width: 40%;
@@ -329,7 +329,7 @@ header nav ul li a:hover{
 
 }
 
-@media all and (min-width: 365px) {
+@media all and (min-width: 365px) and (orientation: portrait) {
     header nav ul{
         font-size: 0.45rem;
         padding-top: 6%;
@@ -370,7 +370,7 @@ header nav ul li a:hover{
     }
 }
 
-@media all and (min-width: 405px) {
+@media all and (min-width: 405px) and (orientation: portrait) {
     header nav ul{
         font-size: 0.5rem;
     }
@@ -385,22 +385,22 @@ header nav ul li a:hover{
         font-size: 1.2rem;
     }
     #containerTextoPortada p{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
     .como_comprar_container h2{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-bottom: -10px;
     }
     .etapas_compra div h5{
-        font-size: 0.55rem;
+        font-size: 0.64rem;
         margin-bottom: 5%;
     }
     .etapas_compra div p{
-        font-size: 0.45rem;
+        font-size: 0.55rem;
     }
     .icon_size{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .quienes_somos_container{
@@ -410,12 +410,12 @@ header nav ul li a:hover{
         width: 48%;
     } 
     .quienes_somos_contenido div h2{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: bold;
         margin-bottom: 11px;
     }
     .quienes_somos_contenido div p{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 
     .footer--container{
@@ -442,7 +442,7 @@ header nav ul li a:hover{
     }
 }
 
-@media all and (min-width: 451px) {
+@media all and (min-width: 451px) and (orientation: portrait) {
     .portada{
         height: 42vh;
     }
@@ -497,7 +497,7 @@ header nav ul li a:hover{
     }
 }
 
-@media all and (min-width: 510px) {
+@media all and (min-width: 510px) and (orientation: portrait) {
     .portada{
         height: 48vh;
     }
@@ -506,6 +506,13 @@ header nav ul li a:hover{
     }
     #containerTextoPortada p{
         font-size: 0.6rem;
+    }
+
+    .encabezado_productos h2{
+        font-size: 0.8rem;
+    }
+    .encabezado_productos p{
+        font-size: 0.65rem;
     }
 
     .como_comprar_container{
@@ -587,7 +594,7 @@ header nav ul li a:hover{
         font-size: 0.8rem;
     }
     .encabezado_productos p{
-        font-size: 0.5rem;
+        font-size: 0.65rem;
     }
 
     .como_comprar_container{
@@ -807,7 +814,90 @@ header nav ul li a:hover{
     }
 }
 
-@media all and (min-width: 880px) {
+@media all and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
+    header nav ul{
+        font-size: 0.75rem;
+    }
+
+    .portada{
+        height: 110vh;
+    }
+
+    .encabezado_productos{
+        padding-top: 0%;
+        height: 39vh;
+    }
+    #logo{
+        width: 25%;
+        height: 130%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        padding-bottom: 1%;
+    }
+
+    .como_comprar_container{
+        height: 50vh;
+    }
+
+    .quienes_somos_container{
+        height: 65vh;
+    }
+
+    .footer--container{
+        height: 50vh;
+    }
+    .titulo-contacto{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media all and (min-width: 601px) and (max-width: 825px) and (orientation: landscape) {
+    header nav ul{
+        font-size: 0.85rem;
+        padding-top: 7%;
+    }
+
+    .portada{
+        height: 130vh;
+    }
+
+    .encabezado_productos{
+        padding-top: 0%;
+        height: 43vh;
+    }
+    #logo{
+        width: 25%;
+        height: 130%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        padding-bottom: 1%;
+    }
+
+    .como_comprar_container{
+        height: 65vh;
+    }
+
+    .quienes_somos_container{
+        height: 77vh;
+    }
+
+    .footer--container{
+        height: 55vh;
+    }
+    .titulo-contacto{
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (min-width: 828px) {
+    header nav ul{
+        font-size: 0.85rem;
+        padding-top: 5%;
+    }
+
     .portada{
         height: 80vh;
     }
@@ -818,6 +908,23 @@ header nav ul li a:hover{
         font-size: 2.8rem;
     }
     #containerTextoPortada p{
+        font-size: 0.8rem;
+    }
+
+    .encabezado_productos{
+        padding-top: 0%;
+        height: 40vh;
+    }
+    #logo{
+        width: 25%;
+        height: 130%;
+        margin-bottom: 0;
+    }
+    .encabezado_productos h2{
+        padding-bottom: 1%;
+        font-size: 1.3rem;
+    }
+    .encabezado_productos p{
         font-size: 0.8rem;
     }
 
@@ -851,8 +958,8 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 7%;
-        height: 35vh;
+        padding-top: 1%;
+        height: 40vh;
     }
     #logo{
         width: 24%;
@@ -869,7 +976,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 45vh;
+        height: 48vh;
         margin-top: 8%;
     }
     .como_comprar_container h2{
@@ -891,7 +998,7 @@ header nav ul li a:hover{
     }
 
     .footer--container{
-        height: 32vh;
+        height: 35vh;
     }
     .titulo-contacto{
         font-size: 1.4rem;
@@ -925,11 +1032,11 @@ header nav ul li a:hover{
         height: 60vh;
     }
     .quienes_somos_contenido div h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 500;
     }
     .quienes_somos_contenido div p{
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 300;
     }
 
@@ -976,12 +1083,12 @@ header nav ul li a:hover{
         font-size: 4rem;
     }
     #containerTextoPortada p{
-        font-size: 1rem;
+        font-size: 1.05rem;
         padding-top: 20px;
     }
 
     .encabezado_productos{
-        padding-top: 7%;
+        padding-top: 1%;
         height: 42vh;
     }
     #logo{
@@ -990,7 +1097,7 @@ header nav ul li a:hover{
         margin-bottom: 0;
     }
     .encabezado_productos h2{
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 500;
     }
     .encabezado_productos p{
@@ -1000,29 +1107,43 @@ header nav ul li a:hover{
 
     .como_comprar_container{
         margin-top: 13%;
-        height: 48vh;
+        height: 65vh;
         background-color: #E5E9F2;
     }
     .como_comprar_container h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        padding-bottom: 2%;
     }
     .etapas_compra div h5{
         font-size: 1.1rem;
     }
     .etapas_compra div p{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .icon_size{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 4%;
     }
 
     .quienes_somos_container{
-        height: 75vh;
+        height: 80vh;
     }
     .quienes_somos_contenido{
         margin-bottom: -100px;
     }
+    .quienes_somos_contenido div h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 1.05rem;
+        font-weight: 100;
+    }
     .nosotros--img--squiggles{
         width: 15%;
+    }
+
+    .footer--container{
+        height: 45vh;
     }
 }
