@@ -814,7 +814,7 @@ header nav ul li a:hover{
     }
 }
 
-@media all and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
+@media all and (min-width: 300px) and (max-width: 600px) and (orientation: landscape) {
     header nav ul{
         font-size: 0.75rem;
         padding-top: 6%;
@@ -823,11 +823,20 @@ header nav ul li a:hover{
     .portada{
         height: 110vh;
     }
+    #containerTextoPortada h1{
+        font-size: 1.2rem;
+    }
+    #containerTextoPortada h2{
+        font-size: 1.7rem;
+    }
+    #containerTextoPortada p{
+        font-size: 0.8rem;
+    }
 
     .encabezado_productos{
-        padding-top: 0%;
+        padding-top: 3%;
         height: 42vh;
-        padding-bottom: 50px;
+        margin-bottom: 5.5%;
     }
     #logo{
         width: 20%;
@@ -839,11 +848,29 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 50vh;
+        height: 65vh;
+    }
+    .como_comprar_container h2{
+        font-size: 1rem;
+    }
+    .etapas_compra div h5{
+        font-size: 0.8rem;
+    }
+    .etapas_compra div p{
+        font-size: 0.7rem;
+    }
+    .icon_size{
+        font-size: 1.2rem;
     }
 
     .quienes_somos_container{
-        height: 65vh;
+        height: 80vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 1rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.7rem;
     }
 
     .footer--container{
