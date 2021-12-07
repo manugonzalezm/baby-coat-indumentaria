@@ -817,6 +817,7 @@ header nav ul li a:hover{
 @media all and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
     header nav ul{
         font-size: 0.75rem;
+        padding-top: 6%;
     }
 
     .portada{
@@ -825,10 +826,10 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 0%;
-        height: 39vh;
+        height: 42vh;
     }
     #logo{
-        width: 25%;
+        width: 20%;
         height: 130%;
         margin-bottom: 0;
     }
