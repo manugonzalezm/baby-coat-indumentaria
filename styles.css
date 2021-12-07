@@ -904,10 +904,11 @@ header nav ul li a:hover{
     .encabezado_productos{
         padding-top: 0%;
         height: 50vh;
-        margin-bottom: 8%;
+        margin-bottom: 6%;
     }
     #logo{
-        width: 20%;
+        width: 30%;
+        height: 130%;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
