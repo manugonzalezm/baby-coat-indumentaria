@@ -835,7 +835,7 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 3%;
-        height: 100vh;
+        height: 50vh;
         margin-bottom: 5.5%;
     }
     #logo{
@@ -894,7 +894,7 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 0%;
-        height: 43vh;
+        height: 50vh;
     }
     #logo{
         width: 25%;
