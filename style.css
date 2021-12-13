@@ -3,6 +3,7 @@
     --text-color-nosotros:#ffc9ee;
     --img--resize: 400px;
     --bg--grey:#7C8087;
+    --bg--green: #D2F8E1;
   }
 html{
     max-width: 100vw;
@@ -41,14 +42,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .nosotros--img--squiggles {
-    margin-top: -50px;
+    margin-top: -35px;
 }
 /* Seccion de REDES */
 .text-madewithlove{
     color: var(--text-color-nosotros);
 }
 .redes--container{
-    background-color:var(--bg--grey);
+    background-color:var(--bg--green);
 }
 .redes--description--text{
     border-radius:12px; 
@@ -64,7 +65,7 @@ h1,h2,h3,h4,h5,h6{
     padding-right: 30%;
 }
 .img--redes{
-    border-radius: 20px;
+    border-radius: 0.3rem;
     overflow-y: hidden;
     background-size:cover;
     background-repeat: no-repeat;

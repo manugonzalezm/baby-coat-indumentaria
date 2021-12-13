@@ -235,7 +235,7 @@ header nav ul li a:hover{
 }
 
 .quienes_somos_container{
-    height: 23vh;
+    height: 28vh;
 }
 .quienes_somos_contenido{
     margin-bottom: -5px;
@@ -244,13 +244,56 @@ header nav ul li a:hover{
     width: 20%;
 }
 
-@media all and (min-width: 320px) and (orientation: portrait) {
+.redes--container{
+    height: 60vh;
+}
+.card_redes{
+    margin: 8% auto;
+    width: 85%;
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7C8087;
+    border-radius: 1rem;
+}
+.card_redes div{
+    color: white;
+    font-size: 0.4rem;
+}
+.card_redes div .text-madewithlove{
+    font-size: 0.4rem;
+}
+.adorno_redes{
+    width: 20%;
+    height: 40%;
+    padding-left: 5%;
+}
+.bebe_redes{
+    padding-left: 3%;
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.texto_instagram{
+    font-size: 0.7rem;
+}
+
+
+@media all and (min-width: 319px) and (orientation: portrait) {
     header nav ul{
         font-size: 0.42rem;
         padding-top: 9%;
     }
 
     /* Encabezado */
+    .portada{
+        height: 40vh;
+    }
     #containerTextoPortada{
         width: 100%;
         height: 100%;
@@ -279,6 +322,9 @@ header nav ul li a:hover{
     }
 
     /* Como comprar */
+    .como_comprar_container{
+        height: 35vh;
+    }
     .etapas_compra{
         padding-top: 5px;
     }
@@ -317,9 +363,6 @@ header nav ul li a:hover{
         font-size: 0.8rem;
     }
 
-    .quienes_somos_container{
-        height: 25vh;
-    }
     .quienes_somos_contenido{
         margin-bottom: -5px;
     }
@@ -327,9 +370,38 @@ header nav ul li a:hover{
         width: 20%;
     }
 
+    .redes--container{
+        height: 73vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 120px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.42rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.45rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 0.6rem;
+    }
+
 }
 
-@media all and (min-width: 365px) and (orientation: portrait) {
+@media all and (min-width: 355px) and (orientation: portrait) {
     header nav ul{
         font-size: 0.45rem;
         padding-top: 6%;
@@ -367,6 +439,35 @@ header nav ul li a:hover{
     }
     .nosotros--img--squiggles{
         width: 20%;
+    }
+
+    .redes--container{
+        height: 50vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 120px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.5rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.5rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 0.6rem;
     }
 }
 
@@ -440,6 +541,35 @@ header nav ul li a:hover{
     .nosotros--img--squiggles{
         width: 20%;
     }
+
+    .redes--container{
+        height: 65vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 140px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.6rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.65rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 0.85rem;
+    }
 }
 
 @media all and (min-width: 451px) and (orientation: portrait) {
@@ -494,6 +624,36 @@ header nav ul li a:hover{
     }
     .nosotros--img--squiggles{
         width: 15%;
+    }
+
+    
+    .redes--container{
+        height: 67vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 120px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.6rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.6rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 0.85rem;
     }
 }
 
@@ -821,6 +981,35 @@ header nav ul li a:hover{
     .nosotros--img--squiggles{
         width: 15%;
     }
+
+    .redes--container{
+        height: 67vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 170px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.8rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.8rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 1.3rem;
+    }
 }
 
 @media all and (min-width: 200px) and (max-width: 600px) and (orientation: landscape) {
@@ -857,7 +1046,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 65vh;
+        height: 70vh;
     }
     .como_comprar_container h2{
         font-size: 1rem;
@@ -873,7 +1062,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 80vh;
+        height: 85vh;
     }
     .quienes_somos_contenido div h2{
         font-size: 1rem;
@@ -889,6 +1078,35 @@ header nav ul li a:hover{
         font-size: 1.1rem;
     }
 
+    .redes--container{
+        height: 130vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 120px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.65rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.65rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 1rem;
+    }
+
 }
 
 @media all and (min-width: 601px) and (max-width: 825px) and (orientation: landscape) {
@@ -898,12 +1116,12 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 130vh;
+        height: 140vh;
     }
 
     .encabezado_productos{
         padding-top: 0%;
-        height: 50vh;
+        height: 70vh;
         margin-bottom: 10%;
     }
     #logo{
@@ -916,11 +1134,23 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 65vh;
+        height: 70vh;
+    }
+    .etapas_compra div h5{
+        font-size: 0.8rem;
+    }
+    .etapas_compra div p{
+        font-size: 0.8rem;
     }
 
     .quienes_somos_container{
-        height: 77vh;
+        height: 85vh;
+    }
+    .quienes_somos_contenido div h2{
+        font-size: 1.1rem;
+    }
+    .quienes_somos_contenido div p{
+        font-size: 0.8rem;
     }
 
     .footer--container{
@@ -928,6 +1158,35 @@ header nav ul li a:hover{
     }
     .titulo-contacto{
         font-size: 1.1rem;
+    }
+
+    .redes--container{
+        height: 180vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 160px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 0.8rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 0.8rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 1rem;
     }
 }
 
@@ -1019,7 +1278,13 @@ header nav ul li a:hover{
         margin-top: 8%;
     }
     .como_comprar_container h2{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+    }
+    .etapas_compra div h5{
+        font-size: 1.2rem;
+    }
+    .etapas_compra div p{
+        font-size: 1.2rem;
     }
     .icon_size{
         font-size: 2rem;
@@ -1030,10 +1295,10 @@ header nav ul li a:hover{
         height: 55vh;
     }
     .quienes_somos_contenido div h2{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     .quienes_somos_contenido div p{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .footer--container{
@@ -1060,6 +1325,36 @@ header nav ul li a:hover{
     }
     .nosotros--img--squiggles{
         width: 15%;
+    }
+
+    .redes--container{
+        height: 160vh;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 90%;
+        height: 280px;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 1.2rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 1.2rem;
+    }
+    .adorno_redes{
+        width: 23%;
+        height: 70%;
+        padding-left: 1%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+    }
+    .texto_instagram{
+        font-size: 1.7rem;
+        padding-bottom: 40px;
     }
 }
 
@@ -1195,5 +1490,44 @@ header nav ul li a:hover{
 
     .footer--container{
         height: 45vh;
+    }
+
+    .redes--container{
+        height: 180vh;
+    }
+    .texto_instagram{
+        font-size: 2rem;
+    }
+    .card_redes{
+        margin: 8% auto;
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #7C8087;
+        border-radius: 1rem;
+    }
+    .card_redes div{
+        color: white;
+        font-size: 1.1rem;
+    }
+    .card_redes div .text-madewithlove{
+        font-size: 1.1rem;
+    }
+    .adorno_redes{
+        width: 25%;
+        height: 100%;
+        padding-left: 5%;
+    }
+    .bebe_redes{
+        padding-left: 3%;
+        width: 50%;
+        height: 100%;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 1rem;
+        border-top-right-radius: 1rem;
     }
 }
