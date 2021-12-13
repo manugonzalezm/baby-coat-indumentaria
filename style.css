@@ -2,6 +2,7 @@
     --text-color: #0b254b;
     --text-color-nosotros:#ffc9ee;
     --img--resize: 400px;
+    --bg--grey:#7C8087;
   }
 html{
     max-width: 100vw;
@@ -47,7 +48,7 @@ h1,h2,h3,h4,h5,h6{
     color: var(--text-color-nosotros);
 }
 .redes--container{
-    background-color: #d2f8e1;
+    background-color:var(--bg--grey);
 }
 .redes--description--text{
     border-radius:12px; 
@@ -148,25 +149,6 @@ h1,h2,h3,h4,h5,h6{
         font-size: 0.9em;
     }
     .img--redes{
-        width: calc(var(--img--resize) - 160px);
-        height: calc(var(--img--resize) - 160px);
-        
-    }
-    .iconos-redes{
-        display: flex;
-        justify-content: center;
-    }
-    .iconos-redes svg{
-        
-        width: 50px;
-        height: 50px;
-    }
-}
-@media only screen and (max-width: 768px) and (min-width: 577px){
-    .redes--description--text{
-        font-size: 0.8em;
-    }
-    .img--redes{
         width: calc(var(--img--resize) - 200px);
         height: calc(var(--img--resize) - 200px);
         
@@ -180,10 +162,13 @@ h1,h2,h3,h4,h5,h6{
         width: 50px;
         height: 50px;
     }
+    p{
+        margin-bottom: 0;
+    }
 }
-@media only screen and (max-width: 576px) and (min-width: 376px) {
+@media only screen and (max-width: 768px) and (min-width: 577px){
     .redes--description--text{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .img--redes{
         width: calc(var(--img--resize) - 250px);
@@ -199,8 +184,36 @@ h1,h2,h3,h4,h5,h6{
         width: 50px;
         height: 50px;
     }
+    p{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 376px) {
+    .redes--description--text{
+        font-size: 0.6em;
+    }
+    .img--redes{
+        width: calc(var(--img--resize) - 300px);
+        height: calc(var(--img--resize) - 300px);
+        
+    }
+    .iconos-redes{
+        display: flex;
+        justify-content: center;
+    }
+    .iconos-redes svg{
+        
+        width: 50px;
+        height: 50px;
+    }
+    h6{
+        font-size: .9rem;
+    }
     h4 {
         font-size: calc(.9rem + .3vw);
+    }
+    p{
+        margin-bottom: 0;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -208,8 +221,8 @@ h1,h2,h3,h4,h5,h6{
         font-size: 0.5em;
     }
     .img--redes{
-        width: calc(var(--img--resize) - 100px);
-        height: calc(var(--img--resize) - 100px);
+        width: calc(var(--img--resize) - 320px);
+        height: calc(var(--img--resize) - 320px);
         
     }
     .iconos-redes{
@@ -221,7 +234,13 @@ h1,h2,h3,h4,h5,h6{
         width: 50px;
         height: 50px;
     }
+    h6{
+        font-size: .9rem;
+    }
     h4 {
         font-size: calc(.9rem + .3vw);
+    }
+    p{
+        margin-bottom: 0;
     }
 }
