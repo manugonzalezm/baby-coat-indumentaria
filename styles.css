@@ -47,7 +47,7 @@ header nav ul li a:hover{
 }
 
 .portada{
-    height: 33vh;
+    height: max-content;
 }
 .portada div{
     height: 100%;
@@ -77,10 +77,8 @@ header nav ul li a:hover{
 }
 
 .encabezado_productos{
-    padding-top: 30px;
-    margin-bottom: 13%;
     background-color: white;
-    height: 20vh;
+    height: max-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,7 +87,7 @@ header nav ul li a:hover{
 }
 #logo{
     width: 90px;
-    height: 90px;
+    height: auto;
 }
 .encabezado_productos h2{
     font-size: 0.85rem;
@@ -120,7 +118,7 @@ header nav ul li a:hover{
 
 .como_comprar_container{
     margin-top: 13%;
-    height: 30vh;
+    height: max-content;
     background-color: #E5E9F2;
 }
 .como_comprar_container h2{
@@ -170,7 +168,7 @@ header nav ul li a:hover{
 }
 
 .quienes_somos_container{
-    height: 38vh;
+    height: max-content;
     background-color: #FFF0EC;
 }
 .quienes_somos_contenido{
@@ -201,7 +199,7 @@ header nav ul li a:hover{
 
 /* Última sección verde */
 .redes--container{
-    height: 45vh;
+    height: max-content;
 }
 
 .footer--container div div h2{
@@ -235,7 +233,7 @@ header nav ul li a:hover{
 }
 
 .quienes_somos_container{
-    height: 28vh;
+    height: max-content;
 }
 .quienes_somos_contenido{
     margin-bottom: -5px;
@@ -245,12 +243,12 @@ header nav ul li a:hover{
 }
 
 .redes--container{
-    height: 60vh;
+    height: max-content;
 }
 .card_redes{
     margin: 8% auto;
     width: 85%;
-    height: 120px;
+    height: max-content;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -272,7 +270,7 @@ header nav ul li a:hover{
 }
 .bebe_redes{
     padding-left: 3%;
-    width: 30%;
+    width: 20%;
     height: 100%;
     border-top-left-radius: 100%;
     border-bottom-left-radius: 100%;
@@ -292,7 +290,7 @@ header nav ul li a:hover{
 
     /* Encabezado */
     .portada{
-        height: 40vh;
+        height: max-content;
     }
     #containerTextoPortada{
         width: 100%;
@@ -305,12 +303,7 @@ header nav ul li a:hover{
 
     /* Productos */
     .encabezado_productos{
-        padding-top: 30px;
-        margin-bottom: 25px;
-    }
-    #logo{
-        margin-top: 5%;
-        margin-bottom: -4px;
+        height: max-content;
     }
     .encabezado_productos h2{
         font-size: 0.8rem;
@@ -323,7 +316,7 @@ header nav ul li a:hover{
 
     /* Como comprar */
     .como_comprar_container{
-        height: 35vh;
+        height: max-content;
     }
     .etapas_compra{
         padding-top: 5px;
@@ -343,7 +336,7 @@ header nav ul li a:hover{
 
     /* Quienes somos */
     .quienes_somos_container{
-        height: 30vh;
+        height: max-content;
     }
     .quienes_somos_contenido img{
         width: 40%;
@@ -371,12 +364,12 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 73vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
         width: 90%;
-        height: 120px;
+        height: max-content;
     }
     .card_redes div{
         color: white;
@@ -392,7 +385,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 20%;
         height: 100%;
     }
     .texto_instagram{
@@ -408,7 +401,7 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 38vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 0.75rem;
@@ -421,7 +414,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 30vh;
+        height: max-content;
     }
     .quienes_somos_contenido img{
         width: 48%;
@@ -432,7 +425,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 28vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -5px;
@@ -442,12 +435,12 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 50vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
         width: 90%;
-        height: 120px;
+        height: max-content;
     }
     .card_redes div{
         color: white;
@@ -463,7 +456,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -477,7 +470,7 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 38vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 0.75rem;
@@ -505,7 +498,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 30vh;
+        height: max-content;
     }
     .quienes_somos_contenido img{
         width: 48%;
@@ -533,7 +526,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 30vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -10px;
@@ -543,12 +536,12 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 65vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
         width: 90%;
-        height: 140px;
+        height: max-content;
     }
     .card_redes div{
         color: white;
@@ -564,7 +557,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -574,7 +567,7 @@ header nav ul li a:hover{
 
 @media all and (min-width: 451px) and (orientation: portrait) {
     .portada{
-        height: 42vh;
+        height: max-content;
     }
     #containerTextoPortada h2{
         font-size: 1.5rem;
@@ -584,12 +577,7 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 30px;
-        margin-bottom: 25px;
-    }
-    #logo{
-        margin-top: 5%;
-        margin-bottom: -4px;
+        height: max-content;
     }
     .encabezado_productos h2{
         font-size: 0.7rem;
@@ -602,11 +590,11 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 28vh;
+        height: max-content;
     }
 
     .quienes_somos_container{
-        height: 32vh;
+        height: max-content;
     }
 
     .footer--container{
@@ -617,7 +605,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 33vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -10px;
@@ -628,12 +616,12 @@ header nav ul li a:hover{
 
     
     .redes--container{
-        height: 67vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
         width: 90%;
-        height: 120px;
+        height: 170px;
     }
     .card_redes div{
         color: white;
@@ -649,7 +637,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -659,7 +647,7 @@ header nav ul li a:hover{
 
 @media all and (min-width: 510px) and (orientation: portrait) {
     .portada{
-        height: 48vh;
+        height: max-content;
     }
     #containerTextoPortada h2{
         font-size: 1.5rem;
@@ -676,7 +664,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 29vh;
+        height: max-content;
     }
     .etapas_compra div h5{
         font-size: 0.7rem;
@@ -691,7 +679,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 35vh;
+        height: max-content;
     }
     .quienes_somos_contenido img{
         width: 40%;
@@ -714,7 +702,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 35vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -30px;
@@ -729,7 +717,7 @@ header nav ul li a:hover{
         font-size: 0.6rem;
     }
     .portada{
-        height: 56vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1rem;
@@ -742,13 +730,11 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 30px;
-        margin-bottom: 10%;
-        height: 19vh;
+        height: max-content;
     }
     #logo{
         width: 25%;
-        margin: 60px 0 15px 0;
+        height: auto;
     }
     .encabezado_productos h2{
         font-size: 0.8rem;
@@ -758,7 +744,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 30vh;
+        height: max-content;
     }
     .como_comprar_container h2{
         font-size: 1rem;
@@ -776,7 +762,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 38vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 0.9rem;
@@ -799,7 +785,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 40vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -40px;
@@ -814,7 +800,7 @@ header nav ul li a:hover{
         font-size: 0.68rem;
     }
     .portada{
-        height: 65vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1.3rem;
@@ -827,12 +813,11 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 7%;
-        height: 40vh;
+        height: max-content;
     }
     #logo{
         width: 40%;
-        height: 130%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -856,7 +841,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 42vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 1rem;
@@ -882,7 +867,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 45vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -50px;
@@ -897,7 +882,7 @@ header nav ul li a:hover{
         font-size: 0.75rem;
     }
     .portada{
-        height: 70vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1.4rem;
@@ -910,12 +895,11 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 7%;
-        height: 30vh;
+        height: max-content;
     }
     #logo{
         width: 25%;
-        height: 130%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -928,7 +912,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 42vh;
+        height: max-content;
     }
     .como_comprar_container h2{
         font-size: 1.2rem;
@@ -945,7 +929,7 @@ header nav ul li a:hover{
     }
     
     .quienes_somos_container{
-        height: 48vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 1.2rem;
@@ -973,7 +957,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 45vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -70px;
@@ -983,7 +967,7 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 67vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
@@ -1004,7 +988,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -1019,7 +1003,7 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 110vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1.2rem;
@@ -1032,13 +1016,12 @@ header nav ul li a:hover{
     }
 
     .encabezado_productos{
-        padding-top: 3%;
-        height: 60vh;
+        height: max-content;
         margin-bottom: 5.5%;
     }
     #logo{
         width: 20%;
-        height: 130%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -1046,7 +1029,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 70vh;
+        height: max-content;
     }
     .como_comprar_container h2{
         font-size: 1rem;
@@ -1062,7 +1045,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 85vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 1rem;
@@ -1079,7 +1062,7 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 130vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
@@ -1100,7 +1083,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -1116,17 +1099,17 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 140vh;
+        height: max-content;
     }
 
     .encabezado_productos{
         padding-top: 0%;
-        height: 70vh;
+        height: max-content;
         margin-bottom: 10%;
     }
     #logo{
         width: 30%;
-        height: 130%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -1134,7 +1117,7 @@ header nav ul li a:hover{
     }
 
     .como_comprar_container{
-        height: 70vh;
+        height: max-content;
     }
     .etapas_compra div h5{
         font-size: 0.8rem;
@@ -1144,7 +1127,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 85vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 1.1rem;
@@ -1161,7 +1144,7 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 180vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
@@ -1182,7 +1165,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
     .texto_instagram{
@@ -1197,7 +1180,7 @@ header nav ul li a:hover{
     }
 
     .portada{
-        height: 80vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1.4rem;
@@ -1211,11 +1194,11 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 0%;
-        height: 40vh;
+        height: max-content;
     }
     #logo{
         width: 25%;
-        height: 130%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -1227,13 +1210,17 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 55vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -70px;
     }
     .nosotros--img--squiggles{
         width: 15%;
+    }
+
+    .redes--container{
+        height: max-content;
     }
 }
 
@@ -1243,7 +1230,7 @@ header nav ul li a:hover{
         padding-top: 4%;
     }
     .portada{
-        height: 85vh;
+        height: max-content;
     }
     #containerTextoPortada h1{
         font-size: 1.5rem;
@@ -1257,11 +1244,11 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 1%;
-        height: 40vh;
+        height: max-content;
     }
     #logo{
-        width: 40%;
-        height: 50%;
+        width: 30%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -1292,7 +1279,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 55vh;
+        height: max-content;
     }
     .quienes_somos_contenido div h2{
         font-size: 1.5rem;
@@ -1318,7 +1305,7 @@ header nav ul li a:hover{
     }
 
     .quienes_somos_container{
-        height: 60vh;
+        height: max-content;
     }
     .quienes_somos_contenido{
         margin-bottom: -70px;
@@ -1328,7 +1315,7 @@ header nav ul li a:hover{
     }
 
     .redes--container{
-        height: 160vh;
+        height: max-content;
     }
     .card_redes{
         margin: 8% auto;
@@ -1349,7 +1336,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 35%;
         height: 100%;
     }
     .texto_instagram{
@@ -1365,11 +1352,11 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 1%;
-        height: 50vh;
+        height: 230vh;
     }
     #logo{
         width: 30%;
-        height: 80%;
+        height: auto;
         margin-bottom: 0;
     }
 
@@ -1411,6 +1398,10 @@ header nav ul li a:hover{
     .nosotros--img--squiggles{
         width: 15%;
     }
+
+    .redes--container{
+        height: max-content;
+    }
 }
 
 @media all and (min-width: 1150px) {
@@ -1434,11 +1425,11 @@ header nav ul li a:hover{
 
     .encabezado_productos{
         padding-top: 1%;
-        height: 50vh;
+        height: 230vh;
     }
     #logo{
         width: 20%;
-        height: 80%;
+        height: auto;
         margin-bottom: 0;
     }
     .encabezado_productos h2{
@@ -1523,7 +1514,7 @@ header nav ul li a:hover{
     }
     .bebe_redes{
         padding-left: 3%;
-        width: 50%;
+        width: 35%;
         height: 100%;
         border-top-left-radius: 100%;
         border-bottom-left-radius: 100%;
