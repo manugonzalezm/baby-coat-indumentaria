@@ -1,73 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <meta name="description" content="Indumentaria de calidad para tu bebé, al mejor precio. Visita nuestro catálogo y realiza tu pedido. Estamos en Lanús y realizamos envíos a todo el país.">
+    <meta name="keywords" content="ropa, bebé, varón, nena, online, Lanus, Buenos Aires, envíos">    
+    <meta property="og:title" content="Baby Coat" />
+    <meta property="og:url" content="https://manugonzalezm.github.io/baby-coat-indumentaria/" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="card.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Baby Coat</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tienda para bebés - Baby Coat </title>
 </head>
 
 <body>
-    <section class="container-fluid nosotros--container d-flex align-items-center">
-        <div class="row ">
-            <div class="row d-flex align-items-center p-5">
-                <div class="col-sm-12 col-md-6">
-                    <div class="">
-                        <img class="img-fluid nosotros--img" src="./img/Imagen2.png" alt="">
+
+    <div id="preloader">
+        <h2 id="tituloPreloader">Bienvenida/o a Baby Coat</h2>
+        <p id="cargando">Cargando...</p>
+    </div>
+
+    <header>
+        <section class="container-fluid gris-oscuro px-0 mx-0 portada" aria-label="Menú de navegación y portada con presentación">
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Quienes somos</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#contacto">Contacto</a></li> <!-- Agregar id a seccion contacto para link -->
+                </ul>
+            </nav>
+            <div class="row mx-0 px-0">
+                <div class="col-5 px-0">
+                    <div id="containerTextoPortada">
+                        <h1>BABY COAT</h1>
+                        <h2>Indumentaria para bebés</h2>
+                        <p>A precios accesibles para todas las madres</p>
                     </div>
-
                 </div>
-
-                <div class="col-sm-12 col-md-6">
-                    <div class="p-4">
-                        <h1 class="pb-4">Quienes Somos</h1>
-                        <p class="pt-2">Somos un emprendimiento de indumentaria para los recien nacidos, admas contamos
-                            con todos los
-                            elementos necesarios que te ayudaran en cada etapa del crecimiento de tu bebe</p>
-                    </div>
-                </div>
-                <div class="nosotros--container--squiggles">
-                    <img class="img-fluid nosotros--img--squiggles" src="./img/Squiggles1.png" alt="">
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-    <section class="container-fluid py-5 redes--container">
-        <div class="row pt-5 mb-5 justify-content-center">
-
-            <div class="col-sm-10 col-md-8 redes--description--text d-flex align-items-center ">
-                <div class="redes--description--text--p pt-5 pb-5">
-                    <h6 class="text-madewithlove">Confeccionado con amor</h6>
-                    <p>vendemos productos accesibles para poder acompañar a madres primerizas.</p>
-                    <p>Ofrecemos accesorios, baberos, sonajeros, juguetes, mordiscos, nidos y ropa</p>
+                <div class="col-7 px-0">
+                    <img src="./img/imagen-portada.png" alt="Madre abrazando a su bebé acostado.">
                 </div>
             </div>
+        </section>
+    </header>
+    <main>
+        <section class="container" aria-label="Catálogo de productos y link a Instagram">
+            <div class="encabezado_productos" id="catalogo">
+                <img src="./img/logo_sfondo.png" alt="Logo de Baby Coat indumentaria" id="logo">
+                <h2 class="m-0 my-1">Nuestros productos</h2>
+                <p class="m-0 mb-1">Catálogo completo disponible en Instagram <a href="https://www.instagram.com/babycoatok/" target="_blank">@babycoat</a></p>
+            <div class="row my-2 mx-auto">
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-1.png" alt="Body - Ropa - Bebé - Varón">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-2.png" alt="Vestido - Ropa - Bebé - Nena">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-3.png" alt="Short - Bebé - Nena - Varón - Ropa">
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3 mx-auto">
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-4.png" alt="Babuchas - Animalitos - Ropa - Bebé - Varón - Nena">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-5.png" alt="Vestido - Nena - Ropa - Bebé">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-6.png" alt="Cuellito - Acolchonado - Accesorios - Bebé - Nena - Varón">
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3 mx-auto">
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-7.png" alt="Babero - Frutilla - Bebé - Ropa - Accesorios - Nena - Varón">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-8.png" alt="Body - Nena - Bebé - Ropa">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card_product p-2">
+                        <img src="./img/products/product-9.png" alt="Conjunto - Bebé - Prematuros - Ropa - Nena - Varón">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row mb-5">
-            <h3 class="mt-5 mb-5 text-center">Siguenos en Instagram @babycoatok</h3>
+        </section>
+
+        <section class="container-fluid p-2 py-5 como_comprar_container d-flex flex-column justify-content-center align-items-center" aria-label="Guía de cómo comprar paso a paso">
+            <h2 class="my-1">Como comprar</h2>
+            <div class="etapas_compra container">
+                <div class="etapa">
+                    <span class="icon_size"><i class="bi bi-instagram"></i></span>
+                    <h5>Visita el catálogo en Instagram</h5>
+                    <p><a href="https://www.instagram.com/babycoatok/">@babycoatok</a></p>
+                </div>  
+                <div class="etapa">
+                    <span class="icon_size"><i class="bi bi-bag"></i></span>
+                    <h5>Solicita el producto</h5>
+                    <p>Por nuestros canales de contacto Instagram o <a href="https://wa.me/5491124890826">Whatsapp</a>
+                    </p>
+                </div>
+                <div class="etapa">
+                    <span class="icon_size"><i class="bi bi-credit-card"></i></span>
+                    <h5>Haz tu compra</h5>
+                    <p>Confirma el método de pago</p>
+                </div>
+                <div class="etapa">
+                    <span class="icon_size"><i class="bi bi-cart-check"></i></span>
+                    <h5>Hacemos el envío</h5>
+                    <p>Recibe tu producto en cualquier parte del país</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid px-0" id="nosotros" aria-label="Texto donde se presenta quienes somos">
+            <div class="p-2 quienes_somos_container d-flex flex-column align-items-center justify-content-center">
+                <div class="quienes_somos_contenido">
+                    <img src="./img/quienes-somos.png" alt="Madre sosteniendo a su bebé en brazos.">
+                    <div>
+                        <h2>Quienes Somos</h2>
+                        <p>Somos un emprendimiento de indumentaria para los recién nacidos, además contamos con todos los elementos necesarios que te ayudarán en cada etapa del crecimiento de tu bebé.</p>
+                    </div>
+                </div>
+                <img class="img-fluid nosotros--img--squiggles p-2" src="./img/Squiggles1.png" alt="">
+            </div>
+        </section>
+
+        <section class="container-fluid redes--container pb-5" aria-label="Texto donde se explica que hacemos y nuestras redes">
+            <div class="d-flex flex-column justify-content-evenly align-center">
+    
+                <!-- <div class="col-sm-10 col-md-8 redes--description--text d-flex align-items-center ">
+                    <div class="redes--description--text--p">
+                        <h6 class="text-madewithlove">Confeccionado con amor</h6>
+                        <p>vendemos productos accesibles para poder acompañar a madres primerizas.</p>
+                        <p>Ofrecemos accesorios, baberos, sonajeros, juguetes, mordiscos, nidos y ropa</p>
+                    </div>
+                </div> -->
+                <div class="card_redes p-0">
+                    <img src="./img/Squiggles 4.png" alt="" class="adorno_redes">
+                    <div class="py-3">
+                        <h6 class="text-madewithlove">Confeccionado con amor</h6>
+                        <p>Vendemos productos accesibles para poder acompañar a madres primerizas.</p>
+                        <p>Ofrecemos accesorios, baberos, sonajeros, juguetes, mordiscos, nidos y ropa.</p>
+                    </div>
+                    <img src="./img/3Quienes.jpg" alt="" class="bebe_redes">
+                </div>
+
+                <div>
+                    <h3 class="text-center texto_instagram">
+                        Síguenos en Instagram <a href="https://www.instagram.com/babycoatok/">@babycoatok</a>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-1 d-flex align-items-center p-0">
+                        <img class="img-fluid" src="./img/Squiggles 2.png" alt="">
+                    </div>
+                    <div class="col-10 col-xs-12">
+                        <div class="row justify-content-between">
+                            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--mama">
+                                
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--bebe">
+                                
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--prendas">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1 d-flex align-items-center p-0">
+                        <img class="img-fluid" src="./img/Squiggles3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="container-fluid py-5 redes--container">
+            <div class="row pt-5 mb-5 justify-content-center">
+                <div class="col-sm-10 col-md-8 redes--description--text d-flex align-items-center ">
+                    <div class="redes--description--text--p pt-5 pb-5">
+                        <h6 class="text-madewithlove">Confeccionado con amor</h6>
+                        <p>vendemos productos accesibles para poder acompañar a madres primerizas.</p>
+                        <p>Ofrecemos accesorios, baberos, sonajeros, juguetes, mordiscos, nidos y ropa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <h3 class="mt-5 mb-5 text-center">Siguenos en Instagram @babycoatok</h3>
 
         </div>
         <div class="row">
             <div class="col-1 d-flex align-items-center p-0">
                 <img class="img-fluid" src="./img/Squiggles 2.png" alt="">
             </div>
-            <div class="col-10">
-                <div class="row justify-content-between">
-                    <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--mama">
+            <div class="row">
+                <div class="col-1 d-flex align-items-center">
+                    <img class="img-fluid" src="./img/Squiggles 2.png" alt="">
+                </div>
+                <div class="col-10">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--mama">
+                            
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--bebe">
+                            
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--prendas">
                         
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--bebe">
-                        
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-4 my-2 ofh img--redes img--redes--bg--prendas">
-                    
+                        </div>
                     </div>
                 </div>
             </div>
@@ -75,90 +240,106 @@
                 <img class="img-fluid" src="./img/Squiggles3.png" alt="">
             </div>
 
-        </div>
-    </section>
-    <section class="container-fluid footer--container ">
-        <div class="separate"></div>
-        <div class="row justify-content-center ">
-            <div class="col-8">
-                <h2>Contacto</h2>
             </div>
-        </div>
-        <div class="separate"></div>
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-sm-12 col-md-5 justify-content-center ">
-                <h4 class="my-4">
-                    <span class="p-2">
-                        <svg class="white-color" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                            fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path
-                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-                        </svg>
-                    </span>
-                    babycoat@gmail.com
-                </h4>
-                <h4 class="my-4">
-                    <span class="p-2">
-                        <svg class="white-color" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-phone" viewBox="0 0 16 16">
-                            <path
-                                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-                        </svg>
-                    </span>
-                    +1524890826
-                </h4>
-                <h4 class="my-4">
-                    <span class="p-2">
-                        <svg class="white-color" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
-                        </svg>
-                    </span>
-                    Zona sur,Lanús.Envios a todo el Pais
-                </h4>
-                <h4 class="my-4">
-                    <span class="p-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-clock white-color" viewBox="0 0 16 16">
-                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
-                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
-                        </svg>
-                    </span>
-                    Horarios de servicios: 8:30 am - 18:30 Pm
-                </h4>
+        </section> -->
+        </main>
+        <footer class="container-fluid px-4 footer--container" id="contacto">
+            <div class="row my-0">
+                <div class="col-8">
+                    <h3 class="my-3 px-3 titulo-contacto">Contacto</h3>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-5">
-                <div class="row d-flex align-items-center ">
-                    <div class="col">
-                        <h2 class="uppCase white-color">Baby Coat</h2>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 iconos-redes">
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
-                            class="bi bi-instagram " viewBox="0 0 16 16">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
-                            class="bi bi-whatsapp" viewBox="0 0 16 16">
-                            <path
-                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>
+            <div class="row d-flex align-items-center justify-content-center contact_content">
+                <div class="col-8 d-flex flex-column justify-content-between align-items-start">
+                    <h4>
+                        <span class="p-1 white-color">
+                            <i class="bi bi-envelope"></i>
+                        </span>
+                        babycoat@gmail.com
+                    </h4>
+                    <h4>
+                        <span class="p-1 white-color">
+                            <i class="bi bi-phone"></i>
+                        </span>
+                        <strong>11-2489-0826</strong>
+                    </h4>
+                    <h4>
+                        <span class="p-1 white-color">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </span>
+                        Zona Sur, Lanús. <strong>Envíos a todo el país</strong>
+                    </h4>
+                    <h4>
+                        <span class="p-1 white-color">
+                            <i class="bi bi-clock"></i>
+                        </span>
+                        Horario de atención: 8:30 - 18:30
+                    </h4>
+                </div>
+                <!-- <div class="col-sm-12 col-md-5 justify-content-center ">
+                    <h4 class="my-4">
+                        <span class="p-2">
+                            <svg class="white-color" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            </svg>
+                        </span>
+                        babycoat@gmail.com
+                    </h4>
+                    <h4 class="my-4">
+                        
+                        +1524890826
+                    </h4>
+                    <h4 class="my-4">
+                        <span class="p-2">
+                            <svg class="white-color" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                        </span>
+                        Zona sur,Lanús.Envios a todo el Pais
+                    </h4>
+                    <h4 class="my-4">
+                        <span class="p-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-clock white-color" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                            </svg>
+                        </span>
+                        Horarios de servicios: 8:30 am - 18:30 Pm
+                    </h4>
+                </div> -->
+                <div class="col-4 p-0">
+                    <div class="m-0 row d-flex flex-column justify-content-between align-items-start ">
+                        <h3 class="uppCase white-color p-0 mb-2 footer_marca">Baby Coat</h3>
+                        <div class="iconos-redes d-flex flex-row justify-content-around align-items-center">
+                            <a href="https://www.instagram.com/babycoatok/"><i class="bi bi-instagram"></i></a>
+                            <a href="https://wa.me/5491124890826"><i class="bi bi-whatsapp"></i></a>
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
+                                class="bi bi-instagram " viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg> -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="separate"></div>
-
-    </section>
+        </footer>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
-
+    <script src="./preloader.js"></script>
 </body>
 
 </html>
