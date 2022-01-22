@@ -4,12 +4,12 @@ This is a real entrepreneurship which sells clothes and accessories for babies.
 
 ## Mobile Display:
 
-https://i.gyazo.com/ef084efed1dfe2fff73e1229b3f1be09.gif
+![Mobile](https://user-images.githubusercontent.com/77683363/150626776-541a2837-dd9f-481d-8b9d-d184859f3921.gif)
 
 ## Tablet Display:
 
-https://i.gyazo.com/0d8235138fe0ece421e06866841e0595.gif
+![Tablet](https://user-images.githubusercontent.com/77683363/150626782-95f65c35-b9c1-487b-ac34-ee974478a16b.gif)
 
 ## Desktop Display:
 
-https://i.gyazo.com/4465103df6f8f50323a624526b17f14b.gif
+![Desktop](https://user-images.githubusercontent.com/77683363/150626792-32873a66-35c1-4f42-9661-5601eb41422f.gif)
